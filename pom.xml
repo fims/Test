@@ -12,7 +12,7 @@
 
     <modules>
         <module>androidexample-lib</module>
-        <module>androidexample-tests</module>
+        <module>ExampleActivityTest</module>
     </modules>
 
 

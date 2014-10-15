@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1000000" android:versionName="1.0.0-SNAPSHOT" package="com.embarkmobile.androidexample.tests">
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.embarkmobile.androidexample.tests"
+    android:versionCode="1000000"
+    android:versionName="1.0.0-SNAPSHOT" >
 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
 
+    <application android:label="Android Maven Tests" >
 
-    <application android:label="Android Maven Tests">
         <!-- Test acitivity -->
-        <activity android:name=".TestActivity"/>
+        <activity android:name=".TestActivity" />
 
-        <uses-library android:name="android.test.runner"/>
+        <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:label="Android Maven Tests" android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.embarkmobile.androidexample.tests">
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Android Maven Tests"
+        android:targetPackage="com.embarkmobile.androidexample.tests" >
     </instrumentation>
+
 </manifest>

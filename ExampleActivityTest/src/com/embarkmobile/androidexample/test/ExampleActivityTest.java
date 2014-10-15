@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.embarkmobile.androidexample.tests;
+package com.embarkmobile.androidexample.test;
 
 
 import com.embarkmobile.androidexample.ExampleActivity;
@@ -37,7 +37,7 @@ import android.widget.TextView;
  *
  * Demonstrates the use of JUnit setUp() and assert() methods.
  */
-public class ExampleTest extends ActivityInstrumentationTestCase2<ExampleActivity> {
+public class ExampleActivityTest extends ActivityInstrumentationTestCase2<ExampleActivity> {
 
     // Number of items in the spinner's backing mLocalAdapter
 
@@ -95,7 +95,7 @@ public class ExampleTest extends ActivityInstrumentationTestCase2<ExampleActivit
      * must call the super constructor, providing the Android package name of the app under test
      * and the Java class name of the activity in that application that handles the MAIN intent.
      */
-    public ExampleTest() {
+    public ExampleActivityTest() {
         super("com.embarkmobile.androidexample.ExampleActivity", ExampleActivity.class);
     }
 
