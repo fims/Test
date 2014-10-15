@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SpinnerTest</name>
+	<name>SpinnerActivityTest</name>
 	<comment></comment>
 	<projects>
-		<project>Spinner</project>
+		<project>SpinnerActivity</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
