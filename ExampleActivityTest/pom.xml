@@ -57,7 +57,7 @@
             <artifactId>ExampleActivity</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
-            <type>apk</type>
+            <type>apklib</type>
         </dependency>
 
     </dependencies>
