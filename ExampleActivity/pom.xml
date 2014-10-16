@@ -10,7 +10,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>ExampleActivity</artifactId>
+	<artifactId>ExampleActivity-Lib</artifactId>
 	<packaging>apk</packaging>
 
 
